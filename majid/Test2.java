@@ -6,19 +6,18 @@ public class Test2 {
         Scanner sc = new Scanner(System.in);
         int step = sc.nextInt();
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
-
         switch (step) {
             case 1:
-                System.out.println(a);
+                System.out.println(-5+ (8*6));
                 break;
             case 2:
-                System.out.println(b);
+                System.out.println((55+9)%9);
                 break;
             case 3:
-                System.out.println(c);
+                System.out.println(20+((-3*5)/8));
+                break;
+            case 4:
+                System.out.println(5+(15/3)*2-(8%3));
                 break;
             default:
                 System.out.println("Invalid step");
