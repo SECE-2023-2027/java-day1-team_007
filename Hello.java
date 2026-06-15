@@ -1,7 +1,10 @@
+import java.util.*;
+
 class Hello{
     public static void main(String[] args) {
-        System.out.println("Hello!");
-        System.out.println("Majid");
-        System.out.println("Shri Ramakrishnan");
+        Scanner sc = new Scanner(System.in);
+
+        String name = sc.nextLine();
+        System.out.println("Hello! "+name);
     }
 }
