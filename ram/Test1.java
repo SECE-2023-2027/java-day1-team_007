@@ -1,6 +1,7 @@
+package ram;
 import java.util.*;
 
-class Hello{
+class Test1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
