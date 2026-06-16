@@ -1,6 +1,6 @@
-import java.util.Scanner;
+import java.util.*;
 
-class Circle {
+class Test3 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
